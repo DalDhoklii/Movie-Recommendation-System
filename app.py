@@ -5,8 +5,8 @@ import pickle
 import requests
 import time
 
-movies_url = "https://drive.google.com/uc?id=1ZS5grgUSeobuI9E9MQPt3r5RHu86PCqR"
-similarity_url = "https://drive.google.com/uc?id=1FfqvMfdufSxWrSvh5EPWrZOKNoo2-cM5"
+movies_url = "https://drive.google.com/file/d/17iM1hhvJWBasqsZ1INdcc2e6UkgfrbR0/view?usp=sharing"
+similarity_url = "https://drive.google.com/file/d/18bb3NBmmGdIbqsmqUOBfxIQI2YCJqB4R/view?usp=sharing"
 
 if not os.path.exists('movies.pkl'):
     gdown.download(movies_url, 'movies.pkl', quiet=False)
