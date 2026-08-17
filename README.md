@@ -38,7 +38,7 @@ Download the dataset from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-mov
 1. **Data Cleaning**: Merge `movies` and `credits` datasets, remove duplicates/nulls.
 2. **Feature Extraction**: Extract `genres`, `keywords`, `cast`, `crew`, `overview`.
 3. **Preprocessing**: Tokenize, lowercase, remove spaces, and apply stemming.
-4. **Vectorization**: Convert text to numeric using **CountVectorizer**.
+4. **Vectorization**: Convert text to numeric using **TfidfVectorizer**.
 5. **Similarity Calculation**: Compute **cosine similarity** between movie vectors.
 6. **Recommendation**: Return top 5 movies closest to the input movie.
 
